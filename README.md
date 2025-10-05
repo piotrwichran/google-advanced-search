@@ -142,4 +142,5 @@ Przykład: num=50.
 - as_qdr= — czas w niektórych kombinacjach (rzadziej używane).
 
 Przykładowy kompletny URL:
+
 https://www.google.com/search?q=site:gov.pl+filetype:pdf+%22raport%22&tbs=qdr:y&num=50&hl=pl
