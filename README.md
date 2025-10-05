@@ -1,7 +1,15 @@
 # Google — ściągawka operatorów wyszukiwania (advanced search)
 
 Plik zawiera listę najprzydatniejszych operatorów wyszukiwania w Google z wyjaśnieniami i przykładami. Używaj ich łącznie, by tworzyć precyzyjne zapytania (dorki). Pamiętaj o etyce — nie obchodź zabezpieczeń ani zasad serwisów.
-
+---
+## Dobre praktyki i uwagi
+- Google często personalizuje wyniki (na podstawie lokalizacji, historii). Używaj trybu incognito / hl=pl i/lub parametrów URL do ujednolicenia wyników.
+- Nie wszystkie operatory działają w 100% przewidywalnie — Google czasem zmienia zachowanie (np. link: czy cache: mają ograniczenia).
+- site: z wildcardami (np. *.domain) może działać niestabilnie — testuj konkretne subdomeny.
+- Unikaj automatycznego scrapingu wyników Google (narusza regulamin). Generuj linki i otwieraj je ręcznie albo używaj oficjalnego API (jeśli konieczne).
+- filetype:pdf pomaga znaleźć dokumenty policy/raporty, ale część plików może być osadzona w systemach, do których Google nie ma dostępu.
+- AROUND(n) jest przydatne, ale wyniki zależą od sposobu indeksacji treści (nie zawsze precyzyjne).
+- Zwracaj uwagę na znaki specjalne i kodowanie URL (escape/quote) przy generowaniu linków.
 ---
 
 ## Podstawowe operatory
