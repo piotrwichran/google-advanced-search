@@ -18,6 +18,7 @@ Przykład:
 ```text
 "polityka bezpieczeństwa informacji"
 ```
+---
 ### OR - operator logiczny (alternatywa)
 Szuka wyników zawierających jedno z podanych słów.
 Przykład:
