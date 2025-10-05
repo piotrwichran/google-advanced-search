@@ -25,9 +25,23 @@ Przykład:
 ```text
 ubezpieczenia OR polisа
 ```
-#### `*` — wildcard (joker)
+#### `*`- wildcard (joker)
 Pasuje do jednego lub więcej słów (użyteczne w frazach).
 Przykład:
 ```text
 "raport * 2024"
+```
+#### `()`- grupowanie
+Grupuje operatory/logikę.
+Przykład:
+```text
+(site:gov.pl OR site:gov.ua) "raport" filetype:pdf
+```
+---
+### Operatory lokalizujące w URL/tytule/tekście
+#### `site:` - ograniczenie do domeny/poddomeny
+Szukaj tylko w danej domenie lub hostu.
+Przykład:
+```text
+site:gov.pl "strategia"
 ```
