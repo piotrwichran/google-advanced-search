@@ -6,15 +6,21 @@ Plik zawiera listę najprzydatniejszych operatorów wyszukiwania w Google z wyja
 
 ## Podstawowe operatory
 
-### `""` — wyszukiwanie frazy dokładnej
+#### `""` wyszukiwanie frazy dokładnej
 Wyszukuje dokładne dopasowanie sekwencji słów.
 Przykład:
 ```text
 "polityka bezpieczeństwa informacji"
 ```
-### `-` -  wykluczenie
+#### `-` wykluczenie
 Wyklucza terminy z wyników.
 Przykład:
 ```text
 "polityka bezpieczeństwa informacji"
+```
+### OR - operator logiczny (alternatywa)
+Szuka wyników zawierających jedno z podanych słów.
+Przykład:
+```text
+ubezpieczenia OR polisа
 ```
