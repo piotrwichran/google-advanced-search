@@ -1,2 +1,20 @@
-# google-advanced-search
-Zestaw bezpiecznych i etycznych Google dorków oraz cheat-sheet operatorów z przykładami i narzędziami.
+# Google — ściągawka operatorów wyszukiwania (advanced search)
+
+Plik zawiera listę najprzydatniejszych operatorów wyszukiwania w Google z wyjaśnieniami i przykładami. Używaj ich łącznie, by tworzyć precyzyjne zapytania (dorki). Pamiętaj o etyce — nie obchodź zabezpieczeń ani zasad serwisów.
+
+---
+
+## Podstawowe operatory
+
+### `""` — wyszukiwanie frazy dokładnej
+Wyszukuje dokładne dopasowanie sekwencji słów.
+Przykład:
+```text
+"polityka bezpieczeństwa informacji"
+```
+### `-` -  wykluczenie
+Wyklucza terminy z wyników.
+Przykład:
+```text
+"polityka bezpieczeństwa informacji"
+```
