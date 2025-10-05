@@ -1,6 +1,6 @@
 # Google — ściągawka operatorów wyszukiwania (advanced search)
-
 Plik zawiera listę najprzydatniejszych operatorów wyszukiwania w Google z wyjaśnieniami i przykładami. Używaj ich łącznie, by tworzyć precyzyjne zapytania (dorki). Pamiętaj o etyce — nie obchodź zabezpieczeń ani zasad serwisów.
+
 ---
 ## Dobre praktyki i uwagi
 - Google często personalizuje wyniki (na podstawie lokalizacji, historii). Używaj trybu incognito / hl=pl i/lub parametrów URL do ujednolicenia wyników.
@@ -27,6 +27,7 @@ Przykład:
 "polityka bezpieczeństwa informacji"
 ```
 ---
+
 ### OR - operator logiczny (alternatywa)
 Szuka wyników zawierających jedno z podanych słów.
 Przykład:
@@ -46,6 +47,7 @@ Przykład:
 (site:gov.pl OR site:gov.ua) "raport" filetype:pdf
 ```
 ---
+
 ### Operatory lokalizujące w URL/tytule/tekście
 #### `site:` - ograniczenie do domeny/poddomeny
 Szukaj tylko w danej domenie lub hostu.
@@ -87,6 +89,7 @@ Przykład:
 inanchor:"więcej informacji" site:example.com
 ```
 ---
+
 ### Operatory plikowe i formaty
 #### `filetype: / ext:` - typ pliku
 Szukaj tylko określonego typu pliku (np. pdf, xlsx, docx).
@@ -110,6 +113,7 @@ Przykład:
 "incident response" AROUND(5) "policy"
 ```
 ---
+
 ### Specjalne / pomocnicze
 #### `cache:` - zobacz kopię Google (może być ograniczone)
 Przykład:
@@ -132,6 +136,7 @@ Przykład:
 source:Poland "inflacja"
 ```
 ---
+
 ### Parametry URL (filtry, UI)
 Możesz modyfikować linki Google bezpośrednio parametrami URL:
 - tbs=qdr:h|d|w|m|y — filtr czasu (hour, day, week, month, year).
@@ -143,4 +148,4 @@ Przykład: num=50.
 
 Przykładowy kompletny URL:
 
-https://www.google.com/search?q=site:gov.pl+filetype:pdf+%22raport%22&tbs=qdr:y&num=50&hl=pl
+`https://www.google.com/search?q=site:gov.pl+filetype:pdf+%22raport%22&tbs=qdr:y&num=50&hl=pl`
